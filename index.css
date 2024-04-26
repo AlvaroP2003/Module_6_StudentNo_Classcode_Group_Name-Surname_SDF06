@@ -2,21 +2,36 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4;
-    color: #432000;
     user-select: none;
 }
 
+
+body {
+    background-image: url(vecteezy_hand-drawn-seamless-pattern-of-vegetables-vector_26595817.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: 320px;
     margin: 30px auto;
 }
 
-img {
-    width: 150px;
-    margin: 0 auto;
+.main_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    background-color:#84953e;
+    margin: 0px 60px;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
 
 input {
@@ -33,7 +48,7 @@ input {
 
 button {
     color: #FDFDFD;
-    background-color: #AC485A;
+    background-color: #526a27;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -43,8 +58,12 @@ button {
 }
 
 button:hover {
-    background-color: #432000;
+    background-color: #3b4921;
     cursor: pointer;
+}
+
+button:active {
+    transform: scale(1.05);
 }
 
 ul {
